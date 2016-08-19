@@ -1,0 +1,4 @@
+Bài sẽ cho ra kết quả không đúng vì lỗi ép kiểu.
+x= a/b;
+sẽ cho ra kết quả là một số nguyên 
+Để có một kết quả đúng cần ép kiểu x = (float)(a/b);

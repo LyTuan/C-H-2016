@@ -1,0 +1,32 @@
+/*
+	Nguoi thuc hien: Ly Van Tuan
+	Ma sinh vien: 14020513
+	gmail: lytuanduong96@gmail.com
+	Bai 1: Kiem tra debug
+	File mở với sublimetext 
+*/
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+
+int main(int argc, char** argv) {
+ int n;
+	 cout<<"Nhap do dai mang:";
+	 cin>>n;
+	 int a[n];
+	 for(int i=0;i<n; i++){
+	 	cout<<"Nhap phan tu a["<<i<<"]=";
+	 	cin>>a[i];
+	 }
+	return 0;
+}
+/*
+ - Bướcc 1: +Chỉnh sửa  cho project.
+		   +Vào Project -> Project Option -> Complier -> linker -> chọn yes cho debuging information -g3
+ - Bước 2: Chọn một điểm ở thanh chạy bên trái  để làm Breakpoint
+ - Bước 3: Bấm Debug để tiến hành debug
+ - Bước 4: Vào trong debug nhấn addWatch để xem giá trị của biến.
+ - Bước 5: Nhấn F7 để di chuyển BreakPoint và nhập dữ liệu xem kết quả ở phần debug góc bên trái.
+ - Bước 6: Nhấn F8 để stop hoặc nhấn stop excute.
+*/
